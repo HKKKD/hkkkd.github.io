@@ -2,11 +2,12 @@
 title: HKKKD's Webite
 email: hekaidi_@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is the CV page of Kaidi He.
+  Click About to see the CV page.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://hkkkd.github.com" # the base hostname & protocol for your site
 
 github_username:  HKKKD
+linkedin_username:  贺恺笛
 
 # Build settings
 markdown: kramdown
