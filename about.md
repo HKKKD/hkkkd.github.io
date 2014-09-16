@@ -34,6 +34,7 @@ Concept & UI Designer, 2nd Prize in 7th Annual National Information Security Con
 - Designed the database of issuing an electronic authorization and validation for check-in activities
 - Programmed the system interface to provide validation of the reservation and payment
 - Established the system environment and the user interface
+
 2013.11-2013.12 Behavior-based Malware Detection and Analysis
 
 - Analyzed the complexity and reliability of static detection and dynamic detection 
@@ -58,6 +59,7 @@ Computer Skills:
 
 - Proficient at programming: C/C++, JAVA, Python, SQL Server, JavaScript
 - In-Depth knowledge of operating system: Windows, Linux, etc.
+
 Language Skills:  
 
 - Mandarin Chinese (Native Speaker); English (Fluent)

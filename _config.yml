@@ -7,7 +7,14 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://hkkkd.github.com" # the base hostname & protocol for your site
 
 github_username:  HKKKD
-linkedin_username:  贺恺笛
 
 # Build settings
-markdown: kramdown
+pygment: true
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - hard_wrap
+    - no_intra_emphasis
+    - autolink
+    - strikethrough
+    - fenced_code_blocks
