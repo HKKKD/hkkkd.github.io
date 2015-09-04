@@ -16,7 +16,7 @@ permalink: /about/
 - Senior GPA: 3.32/4.00      Overall GPA: 3.00/4.00
 
 ##PUBLICATIONS & PRESENTATIONS
-- Weiwei Fang, Yuan An, __Kaidi He__, et al. “Energy-Efficient Network Transmission between Satellite Swarms and Earth Stations based on Lyapunov Optimization Techniques”, Mathematical Problems in Engineering, 2014 (in Pressing)
+- [Weiwei Fang, Yuan An, __Kaidi He__, et al. “Energy-Efficient Network Transmission between Satellite Swarms and Earth Stations based on Lyapunov Optimization Techniques”, Mathematical Problems in Engineering, 2014](http://downloads.hindawi.com/journals/mpe/2014/254326.pdf)
 - “Substitution Cipher”, presented on 2013 summer session at BJTU, regarding the origin of substitution cipher. substation in cryptography, 2013.06
 - “Research on Cryptographic Hash Functions”, presented on Cryptography Course Finals at BJTU, focused on Hash functions, collision attacks SHA-256 & SHA-512 algorithm, 2013.12
 
