@@ -5,8 +5,8 @@ permalink: /about/
 ---
 
 	KAIDI HE
-	No.3 Shangyuancun, Haidian District, Beijing, 100044, China
-	Tel: 86-13811101178 Email: hekaidi_@outlook.com
+	Tel: 86-13811101178  1(571)317-8696
+    Email: kaidi.he@outlook.com
 
 ##EDUCATION
 
@@ -17,7 +17,7 @@ permalink: /about/
 
 ##PUBLICATIONS & PRESENTATIONS
 - Weiwei Fang, Yuan An, __Kaidi He__, et al. “Energy-Efficient Network Transmission between Satellite Swarms and Earth Stations based on Lyapunov Optimization Techniques”, Mathematical Problems in Engineering, 2014 (in Pressing)
-- “Substitution Cipher”, presented on 2013 summer session at BJYU, regarding the origin of substitution cipher. substation in cryptography, 2013.06
+- “Substitution Cipher”, presented on 2013 summer session at BJTU, regarding the origin of substitution cipher. substation in cryptography, 2013.06
 - “Research on Cryptographic Hash Functions”, presented on Cryptography Course Finals at BJTU, focused on Hash functions, collision attacks SHA-256 & SHA-512 algorithm, 2013.12
 
 ##RESEARCH PROJECTS
@@ -64,4 +64,4 @@ Language Skills:
 
 - Mandarin Chinese (Native Speaker); English (Fluent)
 
-Others:  Big fan of Basketball, badminton, photography, etc.
+Others:  Big fan of baskketball, badminton, photography, etc.
