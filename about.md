@@ -10,7 +10,7 @@ permalink: /about/
 
 ##EDUCATION
 
-2011.09 – 2015.07       Candidate for Bachelor of Science Degree, Beijing Jiaotong University (BJTU)
+2011.09 – 2015.07    Bachelor of Science Degree, Beijing Jiaotong University (BJTU)
 
 - Major: Information Security/ Computer Science   
 - Senior GPA: 3.32/4.00      Overall GPA: 3.00/4.00

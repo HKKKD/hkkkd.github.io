@@ -8,21 +8,6 @@ url: "http://hkkkd.github.com" # the base hostname & protocol for your site
 
 github_username:  HKKKD
 
-# social icons and sharing options
-social:
-  - icon:	facebook
-    url:	https://facebook.com/kaidi.he001
-    desc: 	Connect with me facebook
-    share_url: https://www.facebook.com/sharer.php
-    share_title: ?t=
-    share_link: "&amp;u="
-
-  - icon:	github
-    url:	https://github.com/hkkkd
-    desc:	Fork me on github
-    share_url:
-    share_title:
-    share_link:
 
 # Build settings
 pygment: true
