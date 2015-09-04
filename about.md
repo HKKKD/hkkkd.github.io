@@ -64,4 +64,4 @@ Language Skills:
 
 - Mandarin Chinese (Native Speaker); English (Fluent)
 
-Others:  Big fan of baskketball, badminton, photography, etc.
+Others:  Big fan of basketball, badminton, photography, etc.
