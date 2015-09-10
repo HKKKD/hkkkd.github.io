@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Greetings!"
-date: 	2015-09-06			
+date: 	2015-09-06	
+comments:   true		
 ---
 
 ##Hello World!

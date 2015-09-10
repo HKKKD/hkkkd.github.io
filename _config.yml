@@ -6,6 +6,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://hkkkd.github.com" # the base hostname & protocol for your site
 
+disqus_shortname: hkkkd.disqus.com
+
 github_username:  HKKKD
 
 # Build settings
