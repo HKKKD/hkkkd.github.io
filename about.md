@@ -22,7 +22,7 @@ permalink: /about/
 
 ##RESEARCH PROJECTS
 
-2014.03 – 2014.05       Hardware Encryption Key -Based Android Privacy Protection System
+2014.03 – 2014.05       [Hardware Encryption Key -Based Android Privacy Protection System](http://www.xdef.org.cn/2014/show.html)
 Concept & UI Designer, 2nd Prize in 7th Annual National Information Security Contest
 
 - Studied the cryptography theory and its applications, and then designed the overall system 
