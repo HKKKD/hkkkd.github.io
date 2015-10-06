@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A comparison of Azuma 1997 and Xia et al. 2008"
+title:  "A Comparison of Azuma 1997 and Xia et al. 2008"
 date:   2015-09-15  
 comments:   true        
 ---
