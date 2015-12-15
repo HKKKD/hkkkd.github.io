@@ -5,7 +5,7 @@ date:   2015-09-15
 comments:   true        
 ---
 
-In general, these two articles are exactly different from each other in several ways.  "Azuma 1997" is written by a CS Ph.D. and designed to be a guide to junior graduate students who would face the choice between academic and industry. In the article, the author stated a brief introduction about Ph.D. and why should get one. He also gave some advice to those students who want to get a Ph.D. degree. And "Xia et al. 2008" is an absolutely professional writing which was posted on an academic magazine called _Management Science_. It focused on competitive supply marketplace and evaluated the situation that multiple suppliers offer a single non-differentiated product to multiple buyers. I’ll evaluate these two articles in three different criteria. Here comes below.
+In general, these two articles are no doubt different from each other in several ways.  "Azuma 1997" is written by a CS Ph.D. and designed to be a guide to junior graduate students who would face the choice between academy and industry. In the article, the author stated a brief introduction about Ph.D. and why someone should have a Ph.D degree. He also gave some advice to those students who want to get a Ph.D. degree. And "Xia et al. 2008" is an absolutely professional writing which was posted on an research journal called _Management Science_. It focused on competitive supply marketplace and evaluated the situation that multiple suppliers offer a single non-differentiated product to multiple buyers. I’ll evaluate these two articles in three different criteria. Here comes below.
 
 ###Audience
 
