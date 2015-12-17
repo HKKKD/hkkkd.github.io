@@ -2,6 +2,18 @@
 <html>
 
   {% include head.html %}
+  
+  {% if site.posts.first.style %}
+    <link rel="stylesheet" href="/css/art-direction/{{ site.posts.first.style }}">
+  {% elsif page.style %}
+    <link rel="stylesheet" href="/css/art-direction/{{ page.style }}">
+  {% endif %}
+
+  {% if site.posts.first.googlewebfonts %}
+    <link href='http://fonts.googleapis.com/css?family={{ site.posts.first.googlewebfonts }}'>
+  {% elsif page.googlewebfonts %}
+    <link href='http://fonts.googleapis.com/css?family={{ page.googlewebfonts }}'>
+  {% endif %}
 
   <body>
 
