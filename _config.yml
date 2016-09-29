@@ -11,12 +11,6 @@ disqus_shortname: hkkkd.disqus.com
 github_username:  HKKKD
 
 # Build settings
-pygment: true
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - hard_wrap
-    - no_intra_emphasis
-    - autolink
-    - strikethrough
-    - fenced_code_blocks
+markdown: kramdown
+permalink: pretty
+paginate: 3
