@@ -13,3 +13,8 @@ github_username:  HKKKD
 # Build settings
 markdown: kramdown
 permalink: pretty
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
